@@ -1,8 +1,21 @@
 'use strict'
 
-let povtorka = anime({
+let povtorka = {
     targets: '#povtorka',
-    translateX: 250,
+    rotate: {
+        value: 135,
+        duration: 0
+    },
+    translateX: -250,
+    translateY: -250,
     direction: 'alternate',
-    duration: 400
-});
+    duration: 300,
+    scale: 2
+};
+
+let animeJS = anime(povtorka);
+
+window.onkeypress = function(){animeJS.restart()};
+
+
+
