@@ -4,8 +4,8 @@ body {
 .main {
     height: 100vh;
     width: 100vw;
-    background: url("images/prism.png") repeat;
     overflow: hidden;
+    background-image: linear-gradient(to right top, #226cdb, #b959ca, #ff4a98, #ff6959, #ff9e11);
 }
 
 #povtorka {
@@ -13,4 +13,27 @@ body {
     left: -500px;
     right: -500px;
     width: 32vw;
+}
+
+.greeting {
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 3px 0 #969696, 1px 4px 4px #aba8a8;
+
+}
+
+.greeting h1 {
+    font-size: 3.5em;
+}
+
+.greeting h2 {
+    padding-top: 15px;
+    font-size: 3em;
 }
