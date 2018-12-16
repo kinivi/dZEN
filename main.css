@@ -1,10 +1,16 @@
-
+body {
+    overflow: hidden;
+}
 .main {
     height: 100vh;
     width: 100vw;
     background: url("images/prism.png") repeat;
+    overflow: hidden;
 }
 
 #povtorka {
+    position: absolute;
+    left: -500px;
+    right: -500px;
     width: 32vw;
 }
