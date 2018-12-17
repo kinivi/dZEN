@@ -37,3 +37,10 @@ body {
     padding-top: 15px;
     font-size: 3em;
 }
+
+#scream {
+    position: absolute;
+    top: -350px;
+    right: -350px;
+    width: 25vw;
+}
